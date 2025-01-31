@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arts Showcase</title>
+    <link rel="stylesheet" href="design.css">
+
+    
+    <style>
+         body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa; /* Soft light background */
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #ff4646, #1e3d58); /* Filipino flag red and blue */
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            border-bottom: 5px solid #f1c40f; /* Yellow accent */
+        }
+
+        h1 {
+            font-size: 3rem;
+            letter-spacing: 2px;
+        }
+
+        p {
+            font-size: 1.1rem;
+        }
+
+        /* Navigation */
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            background: #333;
+            color: white;
+            padding: 1rem 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.7rem 1.5rem;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background: #f1c40f; /* Yellow accent */
+            color: #1e3d58;
+        }
+
+        /* Section Styling */
+        section {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 1.5rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-top: 5px solid #ff4646; /* Filipino flag red accent */
+        }
+
+        h2 {
+            color: #1e3d58;
+            border-bottom: 2px solid #f1c40f;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+            font-size: 2rem;
+        }
+
+        .art-item {
+            margin-bottom: 2rem;
+            background-color: #f9f9f9;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .art-item img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin-top: 0.8rem;
+            border-radius: 5px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: #1e3d58;
+            color: white;
+            margin-top: 2rem;
+            font-size: 1.2rem;
+        }
+
+        /* Text and Cultural Styling */
+        .art-item h3 {
+            color: #ff4646;
+            font-size: 1.5rem;
+        }
+
+        .art-item p {
+            font-size: 1rem;
+            color: #666;
+        }
+
+        /* Adding Filipino elements to sections */
+        .section-header {
+            font-family: 'Poppins', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Arts Showcase</h1>
+        <p>Explore the beauty of Visual Arts, Performing Arts, and Literary Arts from the Philippines.</p>
+    </header>
+
+    <nav>
+        <a href="#visual-arts">Visual Arts</a>
+        <a href="#performing-arts">Performing Arts</a>
+        <a href="#literary-arts">Literary Arts</a>
+        <a href="#references">References</a>
+    </nav>
+
+    <section id="visual-arts">
+        <h2>Visual Arts</h2>
+        <div class="art-item">
+            <h3>1. Spoliarium</h3>
+            <p><strong>Creator:</strong> Juan Luna</p>
+            <p>An iconic painting depicting dying gladiators being dragged into a chamber. A masterpiece symbolizing the oppression of Filipinos during Spanish rule.</p>
+            <img src="spoliarium.jpg" alt="Spoliarium">
+        </div>
+        <div class="art-item">
+            <h3>2. The Making of the Philippine Flag</h3>
+            <p><strong>Creator:</strong> Fernando Amorsolo</p>
+            <p>A classic painting showcasing women sewing the first Philippine flag, embodying nationalism and unity.</p>
+            <img src="philippine_flag.jpg" alt="The Making of the Philippine Flag">
+        </div>
+        <div class="art-item">
+            <h3>3. Mother and Child</h3>
+            <p><strong>Creator:</strong> Anita Magsaysay-Ho</p>
+            <p>A celebrated painting highlighting Filipino women and rural life, rendered in a modernist style.</p>
+            <img src="mother_and_child.jpg" alt="Mother and Child">
+        </div>
+        <div class="art-item">
+            <h3>4. Rice Planting</h3>
+            <p><strong>Creator:</strong> Fernando Amorsolo</p>
+            <p>A pastoral depiction of Filipino farmers working in the rice fields, showcasing the idyllic rural life.</p>
+            <img src="rice_planting.jpg" alt="Rice Planting">
+        </div>
+        <div class="art-item">
+            <h3>5. San Sebastian Basilica</h3>
+            <p><strong>Architect:</strong> Genaro Palacios</p>
+            <p>The first all-steel building in Asia and the only prefabricated steel church in the world, located in Manila.</p>
+            <img src="san_sebastian.jpg" alt="San Sebastian Basilica">
+        </div>
+        <div class="art-item">
+            <h3>6. Bulul</h3>
+            <p><strong>Creator:</strong> Ifugao Artisans</p>
+            <p>Wooden sculptures representing ancestral spirits, essential in Ifugao rice rituals.</p>
+            <img src="bulul.jpg" alt="Bulul">
+        </div>
+        <div class="art-item">
+            <h3>7. The Oblation</h3>
+            <p><strong>Creator:</strong> Guillermo Tolentino</p>
+            <p>A statue symbolizing selfless dedication, prominently displayed at the University of the Philippines.</p>
+            <img src="oblation.jpg" alt="The Oblation">
+        </div>
+        <div class="art-item">
+            <h3>8. Sabel</h3>
+            <p><strong>Creator:</strong> Benedicto Cabrera (BenCab)</p>
+            <p>An abstract portrayal of a scavenger woman, turning her into a symbol of resilience and strength.</p>
+            <img src="sabel.jpg" alt="Sabel">
+        </div>
+        <div class="art-item">
+            <h3>9. Tinikling Bamboo Art</h3>
+            <p><strong>Creator:</strong> Filipino Artisans</p>
+            <p>Decorative representations inspired by the Tinikling dance, featuring intricate bamboo carvings.</p>
+            <img src="tinikling_art.jpg" alt="Tinikling Bamboo Art">
+        </div>
+        <div class="art-item">
+            <h3>10. Manunggul Jar</h3>
+            <p><strong>Creator:</strong> Prehistoric Filipino Artisans</p>
+            <p>A burial jar featuring intricate designs, signifying early Filipino artistry and beliefs about the afterlife.</p>
+            <img src="manunggul_jar.jpg" alt="Manunggul Jar">
+        </div>
+    </section>
+
+    <section id="performing-arts">
+        <h2>Performing Arts</h2>
+        <div class="art-item">
+            <h3>1. Singkil</h3>
+            <p><strong>Performer/Artist:</strong> Maranao People</p>
+            <p>A traditional Filipino dance that showcases grace and agility while stepping between bamboo poles.</p>
+            <img src="singkil.jpg" alt="Singkil">
+        </div>
+        <div class="art-item">
+            <h3>2. Lea Salonga in Miss Saigon</h3>
+            <p><strong>Performer/Artist:</strong> Lea Salonga</p>
+            <p>An internationally acclaimed performance by Lea Salonga that earned her a Tony Award for her role as Kim.</p>
+            <img src="lea_salonga_miss_saigon.jpg" alt="Lea Salonga in Miss Saigon">
+        </div>
+        <div class="art-item">
+            <h3>3. Bayanihan Dance Company</h3>
+            <p><strong>Group:</strong> Bayanihan Philippine National Folk Dance Company</p>
+            <p>Renowned for their stunning performances that celebrate Filipino culture through traditional dance.</p>
+            <img src="bayanihan.jpg" alt="Bayanihan Dance Company">
+        </div>
+        <div class="art-item">
+            <h3>4. Ang Larawan (The Portrait)</h3>
+            <p><strong>Creator:</strong> Rolando Tinio (playwright)</p>
+            <p>A musical adaptation of Nick Joaquin’s "A Portrait of the Artist as Filipino."</p>
+            <img src="ang_larawan.jpg" alt="Ang Larawan">
+        </div>
+        <div class="art-item">
+            <h3>5. PETA’s Rak of Aegis</h3>
+            <p><strong>Group:</strong> Philippine Educational Theater Association</p>
+            <p>A musical featuring the music of Aegis, highlighting Filipino resilience in the face of adversity.</p>
+            <img src="rak_of_aegis.jpg" alt="Rak of Aegis">
+        </div>
+        <div class="art-item">
+            <h3>6. Tinikling Dance</h3>
+            <p><strong>Performer:</strong> Filipino Folk Dancers</p>
+            <p>A traditional dance mimicking the movement of tikling birds, performed with bamboo poles.</p>
+            <img src="tinikling.jpg" alt="Tinikling Dance">
+        </div>
+        <div class="art-item">
+            <h3>7. Kundiman</h3>
+            <p><strong>Artist:</strong> Various Filipino Composers</p>
+            <p>A genre of traditional Filipino love songs, expressing deep emotion and patriotism.</p>
+            <img src="kundiman.jpg" alt="Kundiman">
+        </div>
+        <div class="art-item">
+            <h3>8. The Ramon Obusan Folkloric Group</h3>
+            <p><strong>Group:</strong> Ramon Obusan Folkloric Group</p>
+            <p>A celebrated group known for preserving and performing authentic Filipino traditional dances.</p>
+            <img src="ramon_obusan.jpg" alt="The Ramon Obusan Folkloric Group">
+        </div>
+        <div class="art-item">
+            <h3>9. Gawad CCP Para sa Sining</h3>
+            <p><strong>Event:</strong> Cultural Center of the Philippines</p>
+            <p>An annual event honoring Filipino artists for their contributions to the performing arts.</p>
+            <img src="ccp_gawad.jpg" alt="Gawad CCP Para sa Sining">
+        </div>
+        <div class="art-item">
+            <h3>10. Philippine Madrigal Singers</h3>
+            <p><strong>Group:</strong> Philippine Madrigal Singers</p>
+            <p>A world-renowned choir known for their diverse repertoire and unique performance style.</p>
+            <img src="madrigal_singers.jpg" alt="Philippine Madrigal Singers">
+        </div>
+    </section>
+
+    <section id="literary-arts">
+        <h2>Literary Arts</h2>
+        <div class="art-item">
+            <h3>1. Noli Me Tangere</h3>
+            <p><strong>Author:</strong> Dr. José Rizal</p>
+            <p>A novel exposing the abuses of Spanish colonizers in the Philippines, inspiring national revolution.</p>
+            <img src="noli_me_tangere.jpg" alt="Noli Me Tangere">
+        </div>
+        <div class="art-item">
+            <h3>2. Florante at Laura</h3>
+            <p><strong>Author:</strong> Francisco Balagtas</p>
+            <p>A metrical romance that combines themes of love, betrayal, and patriotism in a poetic narrative.</p>
+            <img src="florante_at_laura.jpg" alt="Florante at Laura">
+        </div>
+        <div class="art-item">
+            <h3>3. Mi Ultimo Adios</h3>
+            <p><strong>Author:</strong> Dr. José Rizal</p>
+            <p>A poignant farewell poem written by Rizal before his execution, expressing love for the Philippines.</p>
+            <img src="mi_ultimo_adios.jpg" alt="Mi Ultimo Adios">
+        </div>
+        <div class="art-item">
+            <h3>4. Banaag at Sikat</h3>
+            <p><strong>Author:</strong> Lope K. Santos</p>
+            <p>A pioneering work in Filipino literature tackling social justice and labor rights.</p>
+            <img src="banaag_at_sikat.jpg" alt="Banaag at Sikat">
+        </div>
+        <div class="art-item">
+            <h3>5. Sa Aking Mga Kabata</h3>
+            <p><strong>Author:</strong> Dr. José Rizal</p>
+            <p>A poem encouraging Filipinos to embrace and cherish their native language.</p>
+            <img src="sa_aking_mga_kabata.jpg" alt="Sa Aking Mga Kabata">
+        </div>
+        <div class="art-item">
+            <h3>6. Dekada '70</h3>
+            <p><strong>Author:</strong> Lualhati Bautista</p>
+            <p>A novel depicting the struggles of a Filipino family during Martial Law, highlighting human rights issues.</p>
+            <img src="dekada_70.jpg" alt="Dekada '70">
+        </div>
+        <div class="art-item">
+            <h3>7. El Filibusterismo</h3>
+            <p><strong>Author:</strong> Dr. José Rizal</p>
+            <p>The sequel to Noli Me Tangere, delving deeper into themes of social reform and revolution.</p>
+            <img src="el_filibusterismo.jpg" alt="El Filibusterismo">
+        </div>
+        <div class="art-item">
+            <h3>8. Mga Ibong Mandaragit</h3>
+            <p><strong>Author:</strong> Amado V. Hernandez</p>
+            <p>A social realist novel addressing issues of oppression, exploitation, and social change in the Philippines.</p>
+            <img src="mga_ibong_mandaragit.jpg" alt="Mga Ibong Mandaragit">
+        </div>
+        <div class="art-item">
+            <h3>9. Tundo: Man May Langit Din</h3>
+            <p><strong>Author:</strong> Andres Cristobal Cruz</p>
+            <p>A story of ambition, love, and social inequity set in Tondo, Manila.</p>
+            <img src="tundo.jpg" alt="Tundo: Man May Langit Din">
+        </div>
+        <div class="art-item">
+            <h3>10. Ang Bayan Ko</h3>
+            <p><strong>Author:</strong> Jose Corazon de Jesus</p>
+            <p>A patriotic poem reflecting the Filipino spirit and longing for independence.</p>
+            <img src="ang_bayan_ko.jpg">
+        </div>
+
+        <section id="references">
+            <h2>References</h2>
+            <p>The following references were used to compile this Arts Showcase:</p>
+            <ul>
+                <li>
+                    "Spoliarium" by Juan Luna. <em>Source:</em> National Museum of Fine Arts.
+                </li>
+                <li>
+                    "The Making of the Philippine Flag" by Fernando Amorsolo. <em>Source:</em> Fernando Amorsolo Foundation.
+                </li>
+                <li>
+                    "Mother and Child" by Anita Magsaysay-Ho. <em>Source:</em> Ayala Museum.
+                </li>
+                <li>
+                    "Rice Planting" by Fernando Amorsolo. <em>Source:</em> Fernando Amorsolo Foundation.
+                </li>
+                <li>
+                    "San Sebastian Basilica" by Genaro Palacios. <em>Source:</em> UNESCO World Heritage Tentative List.
+                </li>
+                <li>
+                    "Bulul" by Ifugao Artisans. <em>Source:</em> National Museum of the Philippines.
+                </li>
+                <li>
+                    "The Oblation" by Guillermo Tolentino. <em>Source:</em> University of the Philippines Diliman.
+                </li>
+                <li>
+                    "Sabel" by Benedicto Cabrera (BenCab). <em>Source:</em> BenCab Museum.
+                </li>
+                <li>
+                    Tinikling Bamboo Art by Filipino Artisans. <em>Source:</em> Local Filipino Craft Communities.
+                </li>
+                <li>
+                    "Manunggul Jar" by Prehistoric Filipino Artisans. <em>Source:</em> National Museum of Anthropology.
+                </li>
+                <li>
+                    "Singkil" by Maranao People. <em>Source:</em> Traditional Maranao Dance Records.
+                </li>
+                <li>
+                    "Lea Salonga in Miss Saigon." <em>Source:</em> Broadway Records.
+                </li>
+                <li>
+                    Bayanihan Dance Company. <em>Source:</em> National Commission for Culture and the Arts (NCCA).
+                </li>
+                <li>
+                    "Ang Larawan" by Rolando Tinio. <em>Source:</em> Cultural Center of the Philippines (CCP).
+                </li>
+                <li>
+                    PETA’s "Rak of Aegis." <em>Source:</em> Philippine Educational Theater Association.
+                </li>
+                <li>
+                    Tinikling Dance by Filipino Folk Dancers. <em>Source:</em> Philippine Folk Dance Research.
+                </li>
+                <li>
+                    "Kundiman" by Various Filipino Composers. <em>Source:</em> NCCA Music Archives.
+                </li>
+                <li>
+                    Ramon Obusan Folkloric Group. <em>Source:</em> Ramon Obusan Folkloric Foundation.
+                </li>
+                <li>
+                    Gawad CCP Para sa Sining. <em>Source:</em> Cultural Center of the Philippines (CCP).
+                </li>
+                <li>
+                    Philippine Madrigal Singers. <em>Source:</em> Official Website of the Philippine Madrigal Singers.
+                </li>
+                <li>
+                    "Noli Me Tangere" by Dr. José Rizal. <em>Source:</em> National Historical Commission of the Philippines.
+                </li>
+                <li>
+                    "Florante at Laura" by Francisco Balagtas. <em>Source:</em> National Library of the Philippines.
+                </li>
+                <li>
+                    "Mi Ultimo Adios" by Dr. José Rizal. <em>Source:</em> National Historical Commission of the Philippines.
+                </li>
+                <li>
+                    "Banaag at Sikat" by Lope K. Santos. <em>Source:</em> National Commission for Culture and the Arts (NCCA).
+                </li>
+                <li>
+                    "Sa Aking Mga Kabata" by Dr. José Rizal. <em>Source:</em> Philippine Literature Archives.
+                </li>
+                <li>
+                    "Dekada '70" by Lualhati Bautista. <em>Source:</em> Philippine Literary Classics Collection.
+                </li>
+                <li>
+                    "El Filibusterismo" by Dr. José Rizal. <em>Source:</em> National Historical Commission of the Philippines.
+                </li>
+                <li>
+                    "Mga Ibong Mandaragit" by Amado V. Hernandez. <em>Source:</em> National Library of the Philippines.
+                </li>
+                <li>
+                    "Tundo: Man May Langit Din" by Andres Cristobal Cruz. <em>Source:</em> National Library of the Philippines.
+                </li>
+                <li>
+                    "Ang Bayan Ko" by Jose Corazon de Jesus. <em>Source:</em> National Literature Collection.
+                </li>
+            </ul>
+        </section>
+        

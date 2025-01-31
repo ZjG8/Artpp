@@ -1,0 +1,99 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f7f7f7; /* Lighter background for readability */
+    color: #333;
+}
+
+header {
+    background-color: #b93d3d; /* Filipino red, representing courage and passion */
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: #1c1c1c; /* Dark background for the navbar */
+    color: white;
+    padding: 1rem 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.7rem 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #f2b03a; /* Yellow Gold, for a warm accent */
+}
+
+section {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-top: 5px solid #f2b03a; /* Gold accent for borders */
+}
+
+h2 {
+    color: #b93d3d;
+    border-bottom: 3px solid #b93d3d;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+.art-item {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid #eee; /* Light border between items */
+}
+
+.art-item img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+
+.art-item h3 {
+    font-size: 1.5rem;
+    color: #1c1c1c;
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #1c1c1c;
+    color: white;
+    margin-top: 2rem;
+}
+
+footer p {
+    font-size: 1rem;
+    margin: 0;
+}
